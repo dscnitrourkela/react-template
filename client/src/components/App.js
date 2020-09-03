@@ -1,18 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Logo from '../static/logo.svg';
+import '../styles.css';
 
-export default function App() {
-  const [count, setCount] = useState(0);
+function App() {
   return (
-    <div>
-      This is a sample stateful and server-side
-      rendered React application.
-      <br />
-      <br />
-      Here is a button that will track
-      how many times you click it:
-      <br />
-      <br />
-      <button onClick={() => setCount(count + 1)}>{count}</button>
+    <div className="App">
+      <header className="App-header">
+        <img src={Logo} className="App-logo" alt="Icons made by https://www.flaticon.com/authors/freepik" />
+      </header>
     </div>
   );
 }
+
+export default App;
