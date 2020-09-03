@@ -1,0 +1,45 @@
+{
+  "name": "react-client-template",
+  "version": "1.0.0",
+  "description": "A quick way to make a React App without create-react-app with minimal packages with Docker support",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start src/index.js -i max --watch",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscnitrourkela/react-template.git"
+  },
+  "keywords": [
+    "react",
+    "init",
+    "template",
+    "js"
+  ],
+  "author": "DesignrKnight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dscnitrourkela/react-template/issues"
+  },
+  "homepage": "https://github.com/dscnitrourkela/react-template#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0"
+  }
+}
