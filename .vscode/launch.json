@@ -9,14 +9,14 @@
       "request": "launch",
       "type": "pwa-msedge",
       "url": "http://localhost:8080",
-      "webRoot": "${workspaceFolder}"
+      "webRoot": "${workspaceFolder}/client"
     },
     {
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome against localhost",
       "url": "http://localhost:8080",
-      "webRoot": "${workspaceFolder}"
+      "webRoot": "${workspaceFolder}/client"
     }
   ]
 }
