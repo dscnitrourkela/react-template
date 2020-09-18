@@ -12,7 +12,7 @@ module.exports = {
   moduleFileExtensions: ['js', 'json', 'jsx'],
 
   // The paths to modules that run some code to configure or set up the testing environment before each test
-  setupFiles: ['<rootDir>/enzyme.config.js'],
+  setupFiles: ['./enzyme.config.js'],
 
   // The test environment that will be used for testing
   testEnvironment: 'jsdom',
@@ -27,7 +27,7 @@ module.exports = {
   testURL: 'http://localhost',
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
-  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+  transformIgnorePatterns: ['./node_modules/'],
 
   // Indicates whether each individual test should be reported during the run
   verbose: false,
