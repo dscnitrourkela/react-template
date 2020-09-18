@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 // components
-import App from '../../src/views/App';
+import App from '../src/views/App';
 
 function setup() {
   const props = {
