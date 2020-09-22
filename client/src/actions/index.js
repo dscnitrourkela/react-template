@@ -1,1 +1,1 @@
-import { TYPE1 } from './index';
+import { TYPE1 } from './types';
